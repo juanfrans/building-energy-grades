@@ -1,7 +1,5 @@
 # NYC Building Energy Efficiency Grades
 
-![Add image here]()
-
 This is the repository for the [NYC Open Data Week 2022](https://www.open-data.nyc/) workshop in which we analyze and map New York City's building energy efficiency grades with Python, Pandas, Geopandas, and Altair. This workshop was given on March 7, 2022 by [Juan Francisco Saldarriaga](https://brown.columbia.edu/portfolio/juan-francisco-saldarriaga-2/) from the [Brown Institute for Media Innovation](https://brown.columbia.edu/) at Columbia University's Journalism School.
 
 ## Data
@@ -32,47 +30,3 @@ This workshop will teach you mapmaking through programming — Python will be ou
 This session will be led by [Juan Francisco Saldarriaga](https://brown.columbia.edu/portfolio/juan-francisco-saldarriaga-2/), Senior Data & Design Researcher at the [Brown Institute for Media Innovation](https://brown.columbia.edu/) at Columbia University's School of Journalism.
 
 No prior programming experience is required.
-
-## Plan
-
-### Introduction
-
-* Python, Colab, Geopandas, Altair
-  * Why we do this this way instead of QGIS or ArcGIS
-* Introduce the data
-  * How we got it
-  * What it was meant to do
-    * Law
-    * Press articles
-    * Who is producing it and how
-  * What are the files that we will be using
-  * Where is the data
-    * Why in Github?
-* What is the plan today
-  * Explore
-  * Produce initial visualizations
-
-### Analysis
-
-* Loading libraries
-  * Why libraries?
-  * Which ones
-* Loading data
-  * Different types of data
-  * Head, tail, describe, info, dtypes, sample
-  * Summary statistics
-    * Max, median, mean, std, min
-  * Graphs
-* Group by
-  * Borough
-  * Graphs
-* What buildings changed the most?
-* Bring in nta data
-  * Merge
-  * Does it need to happen at the centroid level
-  * Map
-* Bring in PLUTO
-  * Type of building
-    * Building class
-    * Area
-    * Number of units
